@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Replace with your real Gemini API key
-const GEMINI_API_KEY = "AIzaSyACRjJ6x0jIShFFjEZxP7VpU11TAl5Rxg4";
+const GEMINI_API_KEY = "API_KEY";
 
 app.use(cors());
 app.use(express.json());
